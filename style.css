@@ -50,7 +50,7 @@ list-style-type: none;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                  rgba(0, 0, 0, 0)), url("images/Group\ 13\ \(1\)\ \(1\).png");
     height: 500px;
-    margin: 0 10px;
+    margin: 0 0px;
     background-repeat: repeat-y;
     background-size: cover;
     border-radius: 15px;
@@ -81,7 +81,7 @@ list-style-type: none;
 .whereGo, .wh, .sel{
     padding: 15px;
     color:#131318;
-    width: 140px;
+    width: 130px;
     border-radius: 20px;
     border-color: transparent;
 } 
