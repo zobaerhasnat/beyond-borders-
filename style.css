@@ -349,7 +349,7 @@ list-style-type: none;
     padding-top: 15px;
 }
 
-/* why we sectin style ended */
+/* why we section style ended */
 
 /* newsletter section started here */
 .newsletter{
@@ -395,6 +395,22 @@ list-style-type: none;
     color: white;
     font-weight: 600;
 }
+.traveldotcom{
+    background-color: #FF5400;
+    padding: 20px;
+    border-radius: 10px;
+    width:330px;
+    text-align: center;
+    font-size: 24px;
+    color: #e6e6f3;
+    transform: rotate(-35deg);
+    margin-top: -205px;
+    margin-right: -3px;
+}
+.save{
+    font-size: 32px;
+    color: white;
+}
 /* newsletter section ended here */
 
 /* footer section starts here */
@@ -433,6 +449,137 @@ list-style-type: none;
     color: #ababb4;
     padding-top: 30px;
 }
-
-
 /* footer section ends here */
+
+/* Responsive design started */
+@media screen  and (max-width : 600px ) {
+    *{
+        margin: 0 5px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+        font-size: 30px;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .explore h1{
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+    .explore p{
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    .formAndButton{
+        margin: 15px 70px;
+        border-radius: 20px;
+    }
+    .whereGo{
+        width: 327px;
+        margin-bottom: 20px;
+    }
+    
+    .wh, .sel{
+        margin-bottom: 20px;
+        width: 360px;
+    } 
+    .findNow{
+        width: 360px;
+    }
+    .popularTour{
+        flex-direction: column;
+        margin: 50px 0px;
+    
+    }
+    .popularTour h2{
+        font-size: 30px;
+        padding: 0 0;
+    }
+    
+    .popularTour p li{
+        padding: 0px;
+    }
+    .popularTour p{
+        padding: 10px 0; 
+    }
+    .readMore{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .rightPT img{
+        height: 400px;
+        width: 95%;
+    }
+    .choose h2{
+        font-size: 30px;
+    }
+    .choose p{
+        font-size: 14px;
+        padding: 0 60px;
+    }
+    .firstLine, .secondLine, .thirdLine{
+        flex-direction: column;
+    }
+
+    .maldives, .indonesia, .sriLanka, .northAmerica, .kashmir, .Bandarban, .Bangladesh{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .bdplace h2{
+        font-size: 30px;
+    }
+    
+    .bdplace p{
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+    
+    .bdimages{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bdimages img{
+        width: 60%;
+    }
+
+    .whyWe h2{
+        font-size: 30px;
+    }
+    
+    .ww{
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+    .upofww{
+        flex-direction: column;
+    }
+    
+    .handpickedHotels, .worldClassServices, .downofww{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .leftofNL{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .rightofNL img{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .traveldotcom{
+        transform: rotate(-35deg);
+        margin-top: -225px;
+        margin-left: 197px;
+    }
+
+/* Responsive design ended */
