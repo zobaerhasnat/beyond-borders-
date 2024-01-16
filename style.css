@@ -276,6 +276,7 @@ list-style-type: none;
     font-size: 18px;
     color: black;
     padding: 0px 400px;
+    margin-bottom: 30px;
 }
 .upofww{
     display: flex;
@@ -285,20 +286,116 @@ list-style-type: none;
 .handpickedHotels{
     background-color: antiquewhite;
     height: 250px;
-    width: 45%;
+    width: 43%;
+    padding: 30px;
+    border-radius: 15px;
 }
+.handpickedHotels i{
+    font-size: 50px;
+    padding: 10px;
+}
+.handpickedHotels h3{
+    font-size: 30px;
+}
+.handpickedHotels p{
+    font-size: 20px;
+    color: #ababb4;
+    padding-top: 15px;
+}
+
+
 .worldClassServices{
     background-color: rgb(185, 163, 135);
     height: 250px;
-    width: 45%;
+    width: 43%;
+    padding: 30px;
+    border-radius: 15px;
 }
+
+.worldClassServices i{
+    font-size: 50px;
+    padding: 10px;
+}
+.worldClassServices h3{
+    font-size: 30px;
+}
+.worldClassServicesp{
+    font-size: 20px;
+    color: #ababb4;
+    padding-top: 15px;
+}
+
 
 .downofww{
     background-color: rgb(228, 220, 209);
     height: 250px;
     width: 45%;
     margin-top: 30px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.downofww i{
+    font-size: 50px;
+    padding: 10px;
+}
+.downofww h3{
+    font-size: 30px;
+}
+.downofww p{
+    font-size: 20px;
+    color: #ababb4;
+    padding-top: 15px;
 }
 
 /* why we sectin style ended */
 
+/* newsletter section started here */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.leftofNL{
+    border: 2px solid #FF5400;
+    border-radius: 15px;
+    padding: 30px;
+    width: 30%;
+}
+
+.leftofNL h4{
+    font-size: 24px;
+    color: black;
+}
+
+.leftofNL p{
+    padding: 20px 0;
+}
+
+.leftofNL input{
+    display: block;
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 90%;
+    padding: 20px;
+    border-color: transparent;
+}
+
+.leftofNL button{
+    display: block;
+    margin-top: 10px;
+    background-color: #FF5400;
+    width: 100%;
+    padding: 10px 0;
+    border-color: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+/* newsletter section ended here */
+
+/* footer section starts here */
+
+/* footer section ends here */
