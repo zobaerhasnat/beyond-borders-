@@ -1,4 +1,145 @@
 *{
     max-width: 1290px;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.header h1{
+    font-size: 36px;
+    padding-left: 10px;
+}
+.logoName{
+    display: flex;
+    margin-left: 0;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 0;
+}
+.navbar ul li{
+list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    color: #424247;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    margin-bottom: 10px;
+    color: #FF5400;
+}
+.borders{
+    display: inline;
+    color: #FF5400;
+}
+.hamburger{
+    display: none;
+}
+/* expore section started */
+.explore{
+    /* background-image: url("images/Group\ 13\ \(1\)\ \(1\).png"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                 rgba(0, 0, 0, 0)), url("images/Group\ 13\ \(1\)\ \(1\).png");
+    height: 500px;
+    background-repeat: repeat-y;
+    background-size: cover;
+    border-radius: 15px;
+}
+.explore h1{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.explore p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 0px 400px;
+}
+
+.formAndButton{
+    background-color: rgba(201, 184, 184, 0.5);
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    margin: 50px 300px 0px;
+    border-radius: 20px;
+}
+
+.whereGo, .wh, .sel{
+    padding: 15px;
+    color:#131318;
+    width: 150px;
+    border-radius: 20px;
+    border-color: transparent;
+} 
+.findNow, .readMore{
+    background-color: #FF5400;
+    color: white;
+    padding: 15px;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 150px;
+}
+
+/* expore section ended */
+.popularTour{
+    display: flex;
+    margin: 50px 0px;
+
+}
+.readMore{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.popularTour h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    padding: 30px 0;
+}
+
+.popularTour p li{
+    font-size: 16;
+    color: #ababb4;
+    padding: 20px;
+}
+.popularTour p{
+    padding: 25px 0; 
+}
+/* choose destination style started */
+.choose h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    /* padding: 30px 0; */
+    text-align: center;
+}
+.choose p{
+    text-align: center;
+    font-size: 16px;
+    color: #424247;
+}
+
+.choose div{
+    font-size: 30px;
+    color: black;
+}
+
+.
+/* choose destination style ended */
+
+
+
+
